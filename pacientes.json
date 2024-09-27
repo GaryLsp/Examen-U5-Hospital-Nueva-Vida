@@ -1,0 +1,83 @@
+[
+    {
+        "id_paciente": 1,
+        "nombre": "Juan Pérez",
+        "edad": 45,
+        "fecha_alta": "2024-09-10",
+        "diagnostico": "Hipertensión",
+        "fecha_cita": "2024-09-20"
+    },
+    {
+        "id_paciente": 2,
+        "nombre": "María Gómez",
+        "edad": 30,
+        "fecha_alta": "2024-08-25",
+        "diagnostico": "Diabetes",
+        "fecha_cita": "2024-09-15"
+    },
+    {
+        "id_paciente": 3,
+        "nombre": "Carlos Rodríguez",
+        "edad": 54,
+        "fecha_alta": "2024-07-19",
+        "diagnostico": "Asma",
+        "fecha_cita": "2024-09-30"
+    },
+    {
+        "id_paciente": 4,
+        "nombre": "Ana Martínez",
+        "edad": 29,
+        "fecha_alta": "2024-08-10",
+        "diagnostico": "Alergias",
+        "fecha_cita": "2024-09-25"
+    },
+    {
+        "id_paciente": 5,
+        "nombre": "Luis Fernández",
+        "edad": 61,
+        "fecha_alta": "2024-08-01",
+        "diagnostico": "Artritis",
+        "fecha_cita": "2024-09-22"
+    },
+    {
+        "id_paciente": 6,
+        "nombre": "Laura Sánchez",
+        "edad": 40,
+        "fecha_alta": "2024-09-05",
+        "diagnostico": "Hipotiroidismo",
+        "fecha_cita": "2024-09-28"
+    },
+    {
+        "id_paciente": 7,
+        "nombre": "Pedro Gómez",
+        "edad": 35,
+        "fecha_alta": "2024-08-15",
+        "diagnostico": "Gastritis",
+        "fecha_cita": "2024-09-18"
+    },
+    {
+        "id_paciente": 8,
+        "nombre": "Isabel Cruz",
+        "edad": 50,
+        "fecha_alta": "2024-07-25",
+        "diagnostico": "Colesterol alto",
+        "fecha_cita": "2024-09-12"
+    },
+    {
+        "id_paciente": 9,
+        "nombre": "Miguel Ángel",
+        "edad": 33,
+        "fecha_alta": "2024-08-20",
+        "diagnostico": "Migrañas",
+        "fecha_cita": "2024-09-05"
+    },
+    {
+        "id_paciente": 10,
+        "nombre": "Elena Morales",
+        "edad": 38,
+        "fecha_alta": "2024-09-01",
+        "diagnostico": "Fibromialgia",
+        "fecha_cita": "2024-09-23"
+    }
+]
+

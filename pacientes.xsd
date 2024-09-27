@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="pacientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="paciente" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_paciente" type="xs:integer"/>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="edad" type="xs:integer"/>
+              <xs:element name="fecha_alta" type="xs:date"/>
+              <xs:element name="diagnostico" type="xs:string"/>
+              <xs:element name="fecha_cita" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

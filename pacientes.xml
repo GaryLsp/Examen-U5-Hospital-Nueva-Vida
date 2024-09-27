@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pacientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pacientes.xsd">
+  <paciente>
+    <id_paciente>1</id_paciente>
+    <nombre>Juan Pérez</nombre>
+    <edad>45</edad>
+    <fecha_alta>2024-09-10</fecha_alta>
+    <diagnostico>Hipertensión</diagnostico>
+    <fecha_cita>2024-09-20</fecha_cita>
+  </paciente>
+  <paciente>
+    <id_paciente>2</id_paciente>
+    <nombre>María Gómez</nombre>
+    <edad>30</edad>
+    <fecha_alta>2024-08-25</fecha_alta>
+    <diagnostico>Diabetes</diagnostico>
+    <fecha_cita>2024-09-15</fecha_cita>
+  </paciente>
+  <!-- Más pacientes aquí -->
+</pacientes>

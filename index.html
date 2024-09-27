@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital El Día Final</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: 300;
+        }
+
+        h2 {
+            color: #007bff;
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+        }
+
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 10px 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #contenido {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            table, th, td {
+                font-size: 0.9em;
+            }
+
+            input, button {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Medicina logo.png" alt="Logo Hospital">
+    <h1>Hospital Día Final</h1>
+    <p>Guillermo prieto 34-17, Centro, 76750 Tequisquiapan,Qro.</p>
+	<p>Emergencias: 4141055573 / 066</p>
+</header>
+
+<div class="container">
+    <h2>Buscador de Pacientes y Medicamentos</h2>
+
+  <!-- Barra de búsqueda para pacientes -->
+    <div>
+      <label for="buscarPacientes">Buscar Pacientes:</label>
+        <input type="text" id="buscarPacientes" placeholder="Escribe el nombre del paciente">
+      <ul id="resultPacientes"></ul>
+    </div>
+
+    <!-- Campo para ingresar el ID del paciente -->
+    <div id="patientIdField" class="hidden-info">
+        <label for="patientId">Ingresa el ID del Paciente:</label>
+        <input type="number" id="patientId" placeholder="ID del paciente">
+        <button id="submitId">Desbloquear Información</button>
+    </div>
+
+    <!-- Información del paciente -->
+  <div id="patientInfo" class="hidden-info">
+        <h2>Información del Paciente</h2>
+        <p><strong>Edad:</strong> <span id="edad"></span></p>
+        <p><strong>Fecha de Alta:</strong> <span id="fechaAlta"></span></p>
+        <p><strong>Diagnóstico:</strong> <span id="diagnostico"></span></p>
+        <p><strong>Fecha de Cita:</strong> <span id="fechaCita"></span></p>
+    </div>
+
+  <!-- Barra de búsqueda para medicamentos -->
+    <div>
+        <label for="searchMedicamentos">Buscar Medicamentos:</label>
+        <input type="text" id="searchMedicamentos" placeholder="Escribe el nombre del medicamento">
+        <ul id="resultMedicamentos"></ul>
+    </div>
+
+    <h2>Contenido General</h2>
+  <button id="btnPacientes">Mostrar Pacientes (JSON)</button>
+    <button id="btnMedicamentos">Mostrar Medicamentos (JSON)</button>
+    <button id="btnPacientesXML">Mostrar Pacientes (XML)</button>
+    <button id="btnMedicamentosXML">Mostrar Medicamentos (XML)</button>
+
+    <div id="contenido"></div>
+</div>
+
+<footer>
+    <p>Elaborado por: Edgar Sanchez Sanchez e Ivan Hernandez Gonzalez &copy; 2024</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

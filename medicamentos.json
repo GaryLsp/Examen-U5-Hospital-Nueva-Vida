@@ -1,0 +1,83 @@
+[
+    {
+        "clave": "MED123",
+        "nombre": "Paracetamol",
+        "via_administracion": "Oral",
+        "dosis": "500mg",
+        "contenido_neto": "20 tabletas",
+        "fecha_caducidad": "2025-03-01"
+    },
+    {
+        "clave": "MED456",
+        "nombre": "Ibuprofeno",
+        "via_administracion": "Oral",
+        "dosis": "400mg",
+        "contenido_neto": "30 tabletas",
+        "fecha_caducidad": "2024-12-15"
+    },
+    {
+        "clave": "MED789",
+        "nombre": "Amoxicilina",
+        "via_administracion": "Oral",
+        "dosis": "250mg",
+        "contenido_neto": "15 cápsulas",
+        "fecha_caducidad": "2025-01-10"
+    },
+    {
+        "clave": "MED101",
+        "nombre": "Loratadina",
+        "via_administracion": "Oral",
+        "dosis": "10mg",
+        "contenido_neto": "10 tabletas",
+        "fecha_caducidad": "2024-11-20"
+    },
+    {
+        "clave": "MED102",
+        "nombre": "Metformina",
+        "via_administracion": "Oral",
+        "dosis": "500mg",
+        "contenido_neto": "30 tabletas",
+        "fecha_caducidad": "2025-06-15"
+    },
+    {
+        "clave": "MED103",
+        "nombre": "Cetirizina",
+        "via_administracion": "Oral",
+        "dosis": "10mg",
+        "contenido_neto": "20 tabletas",
+        "fecha_caducidad": "2024-10-05"
+    },
+    {
+        "clave": "MED104",
+        "nombre": "Atorvastatina",
+        "via_administracion": "Oral",
+        "dosis": "20mg",
+        "contenido_neto": "30 tabletas",
+        "fecha_caducidad": "2025-04-30"
+    },
+    {
+        "clave": "MED105",
+        "nombre": "Omeprazol",
+        "via_administracion": "Oral",
+        "dosis": "20mg",
+        "contenido_neto": "14 cápsulas",
+        "fecha_caducidad": "2025-02-25"
+    },
+    {
+        "clave": "MED106",
+        "nombre": "Salbutamol",
+        "via_administracion": "Inhalación",
+        "dosis": "100mcg",
+        "contenido_neto": "200 dosis",
+        "fecha_caducidad": "2024-12-01"
+    },
+    {
+        "clave": "MED107",
+        "nombre": "Prednisona",
+        "via_administracion": "Oral",
+        "dosis": "10mg",
+        "contenido_neto": "20 tabletas",
+        "fecha_caducidad": "2025-05-15"
+    }
+]
+

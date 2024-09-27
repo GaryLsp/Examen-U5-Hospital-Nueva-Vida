@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<medicamentos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="medicamentos.xsd">
+  <medicamento>
+    <clave>MED123</clave>
+    <nombre>Paracetamol</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>500mg</dosis>
+    <contenido_neto>20 tabletas</contenido_neto>
+    <fecha_caducidad>2025-03-01</fecha_caducidad>
+  </medicamento>
+  <medicamento>
+    <clave>MED456</clave>
+    <nombre>Ibuprofeno</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>400mg</dosis>
+    <contenido_neto>30 tabletas</contenido_neto>
+    <fecha_caducidad>2024-12-15</fecha_caducidad>
+  </medicamento>
+  <!-- Más medicamentos aquí -->
+</medicamentos>

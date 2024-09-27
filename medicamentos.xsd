@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="medicamentos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="medicamento" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="clave" type="xs:string"/>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="via_administracion" type="xs:string"/>
+              <xs:element name="dosis" type="xs:string"/>
+              <xs:element name="contenido_neto" type="xs:string"/>
+              <xs:element name="fecha_caducidad" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
